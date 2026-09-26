@@ -66,7 +66,7 @@ ENCAPSULAMENTO – O que é encapsulamento?
 
 ### Exercício-8
 DIFERENÇA – Qual é a diferença entre modelar um problema em Programação Imperativa (ou Imperativista) e em Programação Orientada a Objetos? 
-  - resposta
+  - A principal diferença está em como você organiza e modela a lógica: na Programação Imperativa, você define uma sequência detalhada de passos e comandos que alteram o estado do sistema, enquanto na Programação Orientada a Objetos (POO) você representa o problema simulando entidades do mundo real que reúnem dados e comportamentos próprios
 
 ---
 
