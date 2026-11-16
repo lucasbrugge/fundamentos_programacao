@@ -9,3 +9,5 @@
 //
 // Modele computacionalmente o problema de calcular a densidade populacional de uma cidade.
 // Abstraia atributos e métodos para essa modelagem e implemente-a.
+
+import Dado from "./Cidade.ts";

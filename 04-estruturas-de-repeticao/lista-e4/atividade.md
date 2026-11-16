@@ -13,11 +13,13 @@ problema (while, do-while e for).\
 Participe das aulas com os exercícios progressivamente desenvolvidos, com dúvidas demarcadas e\
 pontuais.
 
-> Os exercícios desta lista são etapas da mesma classe. Consulte as definições do exercício 01 ao implementar os métodos seguintes.
+> Todos os itens desenvolvem a mesma classe `InteiroMatematico` no [index.ts](index.ts). Implemente a base do exercício 1 e acrescente os métodos na sequência, reutilizando a mesma classe.
+
+As etapas 15, 17, 19 e 24 apresentam versões mais eficientes dos métodos dos itens 14, 16, 18 e 23, respectivamente. O item 17 também reutiliza o MDC. Mantenha os métodos pedidos com seus nomes distintos na mesma classe.
 
 ## Exercício 1
 
-[Arquivo da atividade](exercicio-01/index.ts)
+[Arquivo da atividade](index.ts)
 
 Defina a classe InteiroMatematico. Objetos desta classe possuem, como principal atributo, um\
 número inteiro n, fornecido ao construtor. Esse atributo possui métodos tanto de acesso quanto de\
@@ -29,21 +31,21 @@ resolver.
 
 ## Exercício 2
 
-[Arquivo da atividade](exercicio-02/index.ts)
+[Arquivo da atividade](index.ts)
 
 tabuada()\
 Retorne uma cadeia de caracteres formatada com a tabuada de n.
 
 ## Exercício 3
 
-[Arquivo da atividade](exercicio-03/index.ts)
+[Arquivo da atividade](index.ts)
 
 numeroDeDivisores()\
 Retorne o número de divisores (inteiros e positivos) de n.
 
 ## Exercício 4
 
-[Arquivo da atividade](exercicio-04/index.ts)
+[Arquivo da atividade](index.ts)
 
 produtoPelaSoma()\
 Retorne o produto de m por n, calculado por meio de somas sucessivas. O parâmetro m é outro\
@@ -52,7 +54,7 @@ como multiplicador, pois calcular 2 x 10, nesse método, é menos custoso do que
 
 ## Exercício 5
 
-[Arquivo da atividade](exercicio-05/index.ts)
+[Arquivo da atividade](index.ts)
 
 elevado()\
 Retorne n^expoente. O expoente é outro número inteiro, passado por parâmetro, e deve ser positivo.\
@@ -61,14 +63,14 @@ indeterminado. O cálculo precisa ser iterativo.
 
 ## Exercício 6
 
-[Arquivo da atividade](exercicio-06/index.ts)
+[Arquivo da atividade](index.ts)
 
 fatorial()\
 Retorne n!, também calculado de maneira iterativa.
 
 ## Exercício 7
 
-[Arquivo da atividade](exercicio-07/index.ts)
+[Arquivo da atividade](index.ts)
 
 serieHarmonica()\
 Calcule e retorne o valor de H, considerando que n representa o número de termos da série abaixo.\
@@ -76,7 +78,7 @@ H = 1 + (1/2) + (1/3) + (1/4) + ... + (1/n)
 
 ## Exercício 8
 
-[Arquivo da atividade](exercicio-08/index.ts)
+[Arquivo da atividade](index.ts)
 
 fibonacci()\
 Retorne o n-ézimo termo da série de Fibonacci. Saiba que os dois primeiros termos desta série são 1\
@@ -86,7 +88,7 @@ indicativo de erro, caso n = 0.
 
 ## Exercício 9
 
-[Arquivo da atividade](exercicio-09/index.ts)
+[Arquivo da atividade](index.ts)
 
 tribonacci()\
 Retorne o n-ézimo primeiro termo da série de Tribonacci. Um número Tribonacci assemelha-se a um\
@@ -96,7 +98,7 @@ precedentes: 1, 1, 2, 4, 7, 13, 24, 44, 81, 149 (e, assim, sucessivamente).
 
 ## Exercício 10
 
-[Arquivo da atividade](exercicio-10/index.ts)
+[Arquivo da atividade](index.ts)
 
 isTriangular()\
 Retorne se n é um número triangular, ou seja, formado pelo produto de três inteiros consecutivos.\
@@ -105,7 +107,7 @@ deve ser booleano.
 
 ## Exercício 11
 
-[Arquivo da atividade](exercicio-11/index.ts)
+[Arquivo da atividade](index.ts)
 
 isSomaDosQuadrados()\
 Repare a seguinte característica do número 3025: 30 + 25 = 55 e 55^2 = 3025.\
@@ -114,7 +116,7 @@ Retorne se n possui essa mesma característica. Caso n seja menor do que 1.000 o
 
 ## Exercício 12
 
-[Arquivo da atividade](exercicio-12/index.ts)
+[Arquivo da atividade](index.ts)
 
 maiorDivisor()\
 Retorne o maior divisor de n, exceto ele próprio. Se n = 0, ou n = 1, retorne 1. Caso n = 24, por\
@@ -122,7 +124,7 @@ exemplo, deve-se retornar 12.
 
 ## Exercício 13
 
-[Arquivo da atividade](exercicio-13/index.ts)
+[Arquivo da atividade](index.ts)
 
 menorDivisor()\
 Retorne o menor divisor de n, exceto 1. Se n = 0, ou n = 1, retorne 1. Caso n = 24, por exemplo,\
@@ -130,7 +132,7 @@ deve-se retornar 2.
 
 ## Exercício 14
 
-[Arquivo da atividade](exercicio-14/index.ts)
+[Arquivo da atividade](index.ts)
 
 mdc()\
 O Máximo Divisor Comum (MDC) entre dois números m e n é o maior número inteiro encontrado, que\
@@ -141,7 +143,7 @@ Calcule e retorne o mdc(m, n), sendo m fornecido como parâmetro.\
 
 ## Exercício 15
 
-[Arquivo da atividade](exercicio-15/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 mdcEficiente()
@@ -158,7 +160,7 @@ Observe que o resto da divisão de a por b, ao final, é igual a zero.
 
 ## Exercício 16
 
-[Arquivo da atividade](exercicio-16/index.ts)
+[Arquivo da atividade](index.ts)
 
 mmc()\
 O Mínimo Múltiplo Comum (MMC) de dois inteiros, m e n, é o menor inteiro positivo múltiplo\
@@ -168,7 +170,7 @@ Calcule e retorne o mmc(m, n), sendo m fornecido como parâmetro.
 
 ## Exercício 17
 
-[Arquivo da atividade](exercicio-17/index.ts)
+[Arquivo da atividade](index.ts)
 
 mmcEficiente()\
 Retorne o mmc(m, n) calculado eficientemente:\
@@ -176,14 +178,14 @@ mmc = m \* n / mdc(m, n)
 
 ## Exercício 18
 
-[Arquivo da atividade](exercicio-18/index.ts)
+[Arquivo da atividade](index.ts)
 
 isPrimo()\
 Retorne se n é um número primo.
 
 ## Exercício 19 (importantíssimo)
 
-[Arquivo da atividade](exercicio-19/index.ts)
+[Arquivo da atividade](index.ts)
 
 isPrimoEficiente()\
 Observe que, quanto maior o número de comparações desnecessárias, mais ineficiente é o algoritmo.\
@@ -193,7 +195,7 @@ o algoritmo implementado pelo exercício anterior.
 
 ## Exercício 20
 
-[Arquivo da atividade](exercicio-20/index.ts)
+[Arquivo da atividade](index.ts)
 
 isPerfeito()\
 Retorne se n é um número perfeito, reduzido ou abundante.\
@@ -211,7 +213,7 @@ perfeito ou abundante.
 
 ## Exercício 21
 
-[Arquivo da atividade](exercicio-21/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 isRaizExata()
@@ -229,7 +231,7 @@ Raiz de 15
 
 ## Exercício 22
 
-[Arquivo da atividade](exercicio-22/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 tresN()
@@ -246,7 +248,7 @@ para n, o número de iterações para se chegar ao primeiro 1.
 
 ## Exercício 23
 
-[Arquivo da atividade](exercicio-23/index.ts)
+[Arquivo da atividade](index.ts)
 
 neperiano()\
 Na matemática, o número neperiano (também conhecido como número de Euler, número de Napier,\
@@ -264,7 +266,7 @@ iterativa.
 
 ## Exercício 24
 
-[Arquivo da atividade](exercicio-24/index.ts)
+[Arquivo da atividade](index.ts)
 
 neperianoEficiente()\
 Caso, na resolução do exercício anterior, tenham sido utilizados comandos de iteração aninhados,\
@@ -272,7 +274,7 @@ tente resolvê-lo com um único comando de iteração.
 
 ## Exercício 25
 
-[Arquivo da atividade](exercicio-25/index.ts)
+[Arquivo da atividade](index.ts)
 
 sen()\
 Calcule e retorne o sen(n), considerando que n é um ângulo representado em radianos. O valor do\

@@ -40,6 +40,8 @@ Dinheiro retirado:
 
 ## Exercício 3
 
+> Este exercício amplia o caixa eletrônico do exercício 2 para trabalhar com centavos. Os arquivos permanecem separados porque a orientação da lista pede um código TypeScript distinto por exercício.
+
 [Arquivo da atividade](exercicio-03/index.ts)
 
 CAIXA ELETRÔNICO COM CENTAVOS – Idem ao anterior, mas considere que o valor lido será um\

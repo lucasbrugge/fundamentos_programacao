@@ -12,11 +12,11 @@ Explore diferentes estruturas de repetição para resolver um mesmo exercício: 
 for. É possível usar qualquer uma das estruturas de repetição para resolver os exercícios. A\
 qualidade da solução varia com isso.
 
-> Os exercícios desta lista são etapas da mesma classe. Consulte as definições do exercício 01 ao implementar os métodos seguintes.
+> Todos os itens desenvolvem a mesma classe `PainelContador` no [index.ts](index.ts). Implemente a base do exercício 1 e acrescente os métodos na sequência, reutilizando a mesma classe.
 
 ## Exercício 1
 
-[Arquivo da atividade](exercicio-01/index.ts)
+[Arquivo da atividade](index.ts)
 
 Defina a classe PainelContador:\
 (a) Objetos desta classe possuem, como atributos, os limites inferior e superior (inteiros), de um\
@@ -30,7 +30,7 @@ que troca os valores caso o limite superior seja menor do que o limite inferior;
 
 ## Exercício 2
 
-[Arquivo da atividade](exercicio-02/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagem()
@@ -50,7 +50,7 @@ limites sejam 1 e 10, a contagem será:
 
 ## Exercício 3
 
-[Arquivo da atividade](exercicio-03/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagemDecrescente()
@@ -69,7 +69,7 @@ Idem, mas realizando a contagem decrescente, como:
 
 ## Exercício 4
 
-[Arquivo da atividade](exercicio-04/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagemPares()
@@ -83,7 +83,7 @@ Passa apenas pelos números pares da contagem:
 
 ## Exercício 5
 
-[Arquivo da atividade](exercicio-05/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagemImpares()
@@ -97,7 +97,7 @@ Idem para os ímpares:
 
 ## Exercício 6
 
-[Arquivo da atividade](exercicio-06/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagemPasso()
@@ -112,7 +112,7 @@ O próximo número, caso não ultrapassasse o limite superior, seria 13.
 
 ## Exercício 7
 
-[Arquivo da atividade](exercicio-07/index.ts)
+[Arquivo da atividade](index.ts)
 
 ```text
 contagemOmitindo()

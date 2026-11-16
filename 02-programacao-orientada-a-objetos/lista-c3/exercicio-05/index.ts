@@ -11,3 +11,11 @@
 // criação do objeto e não pode ser alterado. Ofereça métodos para rolar o dado e para observar o
 // número da última rolagem. Para isso, pesquise como fazer a geração de números aleatórios na
 // linguagem.
+
+import Dado from "./Dado.ts";
+
+let d20: Dado = new Dado(20);
+
+console.log(d20.rolar());
+console.log();
+console.log(d20.getRolagem());

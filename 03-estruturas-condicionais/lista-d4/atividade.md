@@ -69,9 +69,11 @@ respectivos valores. Realize um teste, pedindo para que seja retornada a velocid
 para um objeto recém criado, considerando o construtor sem parâmetros. Altere a implementação\
 para que o retorno, nesse caso, seja zero.
 
+> Os exercícios 5 e 6 desenvolvem a mesma solução em `exercicios-05-06/`: primeiro a escala de 1 a 10, depois a ampliação para 1 a 100.
+
 ## Exercício 5
 
-[Arquivo da atividade](exercicio-05/index.ts)
+[Arquivo da atividade](exercicios-05-06/index.ts)
 
 Modele e implemente uma classe que resolva o problema de transformar um número, entre 1 e 10,\
 em algarismos romanos. Caso o número fornecido esteja fora desse intervalo, retorne a mensagem:\
@@ -79,7 +81,7 @@ em algarismos romanos. Caso o número fornecido esteja fora desse intervalo, ret
 
 ## Exercício 6
 
-[Arquivo da atividade](exercicio-06/index.ts)
+[Arquivo da atividade](exercicios-05-06/index.ts)
 
 Amplie solução anterior para atender a uma escala de 1 a 100. Considere que avaliar cada um dos\
 101 casos possíveis não consiste em uma boa solução.

@@ -11,3 +11,9 @@
 // uma interface gráfica de um relógio analógico. Disponha de métodos que retornem a posição de cada
 // ponteiro do relógio, em graus. Considere doze horas como a posição inicial, ou seja, 0º. Não julgue a
 // resolução como correta sem comparar o resultado com um relógio real.
+
+import Relogio from "./Relogio.ts";
+
+let relogio: Relogio = new Relogio;
+
+console.log(relogio.graus(1,30));

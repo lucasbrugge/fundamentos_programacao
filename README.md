@@ -27,17 +27,23 @@ Os conteúdos seguem a sequência das aulas. Cada assunto reúne suas listas e e
 └── lista-b3/
 02-programacao-orientada-a-objetos/
 ├── lista-c1/
+│   └── atividade.md                     # Enunciados e respostas de conceitos
 └── lista-c3/
 03-estruturas-condicionais/
 ├── lista-d2/
 └── lista-d4/
+    └── exercicios-05-06/                # Conversão para algarismos romanos
 04-estruturas-de-repeticao/
 ├── lista-e2/
+│   ├── atividade.md
+│   └── index.ts                         # Etapas da classe PainelContador
 └── lista-e4/
+    ├── atividade.md
+    └── index.ts                         # Etapas da classe InteiroMatematico
 ```
 
 Os arquivos `atividade.md` reúnem as orientações e os enunciados de cada lista.
-Cada exercício tem sua própria pasta, com um `index.ts` para desenvolver a solução.
+Os exercícios independentes têm sua própria pasta, com um `index.ts` para desenvolver a solução.
 Os materiais do professor ficam disponíveis para consulta em `.material-do-professor/`.
 
 ## Aprendizado

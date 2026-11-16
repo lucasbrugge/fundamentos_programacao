@@ -9,3 +9,16 @@
 // GOTAS – Leia a quantidade de uma solução em mililitros. Converta e exiba essa mesma quantidade
 // em gotas. Para essa solução, assuma que uma gota equivale a 0,05ml (ou seja, 1ml corresponde a
 // 20 gotas).
+
+import teclado from	"npm:readline-sync";
+
+let ml: number = 0,
+    gotas: number = 0;
+
+console.log("Insira a quantidade em mllitros:");
+ml = teclado.questionFloat();
+
+gotas = ml * 20;
+
+console.log("A quantidade da solução em gostas é");
+console.log(gotas);

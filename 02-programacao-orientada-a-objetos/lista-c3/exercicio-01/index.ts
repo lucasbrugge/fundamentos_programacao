@@ -31,3 +31,12 @@
 // Com essa abordagem, de retornar uma cadeia de caracteres ao invés de utilizar uma instrução de
 // saída, reforçam-se os princípios da Programação Orientada a Objetos. Dessa forma, ocorre a divisão
 // de responsabilidades, onde a classe em questão se concentra apenas em modelar o objeto.
+
+import Produto from "./Produto.ts";
+
+let chocolate1: Produto = new Produto("Barra de chocolate Diamante Negro", 0.090, 5.99),
+    chocolate2: Produto = new Produto("Ovo de Páscoa Diamante Negro", 0.176, 29.90);
+
+console.log(chocolate1.getEtiqueta());
+console.log();
+console.log(chocolate2.getEtiqueta());
